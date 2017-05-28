@@ -1,4 +1,4 @@
-require('tinytest');
+var modt = require("tinytest");
 Tinytest.add('sample passing test', function(test) {
   test.equal(10, 10);
 });
